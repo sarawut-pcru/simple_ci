@@ -31,7 +31,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class=" justify-content-end">
 
                 <a class="btn btn-outline-light" href="signup">PROFILE</a>
-                <a class="btn btn-outline-danger " href="logout">Sign Out</a>
+                <a class="btn btn-outline-danger " href="ccd">Sign Out</a>
 
             </div>
         </div>

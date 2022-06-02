@@ -3,11 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Login extends CI_Controller
 {
-    public function __construct()
-    {
-        parent::__construct();
-        $this->load->model('member_model');
-    }
 
 
     public function index()
@@ -32,6 +27,12 @@ class Login extends CI_Controller
     {
         $this->load->view('mycss');
         $this->load->view('signup');
+        $this->load->view('js');
+    }
+    public function ccd()
+    {
+        $this->load->view('mycss');
+        $this->load->view('welcome_message');
         $this->load->view('js');
     }
 }

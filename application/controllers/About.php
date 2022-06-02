@@ -7,6 +7,7 @@ class About extends CI_Controller
 
     public function index()
     {
+        
         $this->load->view('mycss');
 		$this->load->view('welcome_message');
 		$this->load->view('js');

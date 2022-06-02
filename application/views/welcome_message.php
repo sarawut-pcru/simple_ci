@@ -29,7 +29,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<nav class="navbar navbar-light  bg-dark static-top ">
 		<div class="container ">
 			<a class="navbar-brand text-white" href="#!"></a>
-			<div class=" justify-content-end">
+			<div class="d-sm-none d-sm-none d-md-block justify-content-end">
 				<a class="btn btn-outline-success " href="<?php echo site_url('register') ?>">Register</a>
 				<a class="btn btn-outline-info mr-5" href="signup">Sign Up</a>
 			</div>
@@ -39,7 +39,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<header class="masthead">
 		<div class="container position-relative">
 			<div class="row justify-content-center">
-				<div class="col-xl-6">
+				<div class="col-xl-6 col-md-6">
 					<div class="text-center text-white">
 						<!-- Page heading-->
 						<h1 class="mb-5">ยินดีตอนรับ</h1>

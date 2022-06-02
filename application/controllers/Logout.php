@@ -1,10 +1,10 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Logout extends CI_Controller
+class Signout extends CI_Controller
 {
 
-    public function logout()
+    public function index()
     {
 		$this->load->view('mycss');
 		$this->load->view('welcome_message');
